@@ -1,0 +1,54 @@
+estilo
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    background:#f1f1d4
+}
+
+form {
+    background: #4cd1d1;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 70px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+input {
+    width: 80;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+button {
+    background: rgb(250, 29, 0);
+    color: white;
+    padding: 5px 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background: rgb(255, 38, 0);
+}
+
+
+table {
+    width:min(100%, 900px);
+    table-layout: fixed;
+
+}
+
+table, th, td {
+    border: 1px solid;
+    border-radius: 5px;
+  }
